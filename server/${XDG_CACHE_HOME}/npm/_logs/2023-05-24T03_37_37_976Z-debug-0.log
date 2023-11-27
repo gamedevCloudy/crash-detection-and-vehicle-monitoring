@@ -1,0 +1,175 @@
+0 verbose cli /opt/homebrew/Cellar/node/20.1.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@9.6.4
+2 info using node@v20.1.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 0ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 warn config tmp This setting is no longer used.  npm stores temporary files in a special
+11 warn config location in the cache, and they are managed by
+11 warn config     [`cacache`](http://npm.im/cacache).
+12 timing config:load:file:/Users/aayushchaudhary/.npmrc Completed in 0ms
+13 timing config:load:user Completed in 0ms
+14 timing config:load:file:/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/${XDG_DATA_HOME}/npm/etc/npmrc Completed in 0ms
+15 timing config:load:global Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 6ms
+18 timing npm:load:configload Completed in 6ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i body-parser
+22 verbose argv "i" "body-parser"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing config:load:flatten Completed in 1ms
+25 timing npm:load:display Completed in 2ms
+26 verbose logfile logs-max:10 dir:/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/${XDG_CACHE_HOME}/npm/_logs/2023-05-24T03_37_37_976Z-
+27 verbose logfile /Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/${XDG_CACHE_HOME}/npm/_logs/2023-05-24T03_37_37_976Z-debug-0.log
+28 timing npm:load:logFile Completed in 3ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 14ms
+32 timing arborist:ctor Completed in 0ms
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 21ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 silly fetch manifest body-parser@*
+38 timing arborist:ctor Completed in 0ms
+39 http fetch GET 200 https://registry.npmjs.org/body-parser 972ms (cache revalidated)
+40 silly placeDep ROOT body-parser@1.20.2 REPLACE for: server@1.0.0 want: *
+41 silly fetch manifest bytes@3.1.2
+42 silly fetch manifest iconv-lite@0.4.24
+43 silly fetch manifest raw-body@2.5.2
+44 http fetch GET 200 https://registry.npmjs.org/bytes 196ms (cache revalidated)
+45 http fetch GET 200 https://registry.npmjs.org/iconv-lite 587ms (cache revalidated)
+46 http fetch GET 200 https://registry.npmjs.org/raw-body 588ms (cache revalidated)
+47 timing idealTree:#root Completed in 1572ms
+48 silly placeDep ROOT bytes@3.1.2 OK for: body-parser@1.20.2 want: 3.1.2
+49 silly placeDep ROOT iconv-lite@0.4.24 OK for: body-parser@1.20.2 want: 0.4.24
+50 silly placeDep ROOT raw-body@2.5.2 OK for: body-parser@1.20.2 want: 2.5.2
+51 silly fetch manifest safer-buffer@>= 2.1.2 < 3
+52 http fetch GET 200 https://registry.npmjs.org/safer-buffer 191ms (cache revalidated)
+53 timing idealTree:node_modules/body-parser Completed in 197ms
+54 timing idealTree:node_modules/bytes Completed in 0ms
+55 silly fetch manifest body-parser@1.20.1
+56 silly placeDep node_modules/express body-parser@1.20.1 OK for: express@4.18.2 want: 1.20.1
+57 silly fetch manifest raw-body@2.5.1
+58 timing idealTree:node_modules/express Completed in 3ms
+59 silly placeDep ROOT safer-buffer@2.1.2 OK for: iconv-lite@0.4.24 want: >= 2.1.2 < 3
+60 timing idealTree:node_modules/iconv-lite Completed in 2ms
+61 timing idealTree:node_modules/raw-body Completed in 0ms
+62 timing idealTree:node_modules/safer-buffer Completed in 0ms
+63 silly placeDep node_modules/express raw-body@2.5.1 OK for: body-parser@1.20.1 want: 2.5.1
+64 timing idealTree:node_modules/express/node_modules/body-parser Completed in 2ms
+65 timing idealTree:node_modules/express/node_modules/raw-body Completed in 0ms
+66 timing idealTree:buildDeps Completed in 1777ms
+67 timing idealTree:fixDepFlags Completed in 1ms
+68 timing idealTree Completed in 1801ms
+69 timing reify:loadTrees Completed in 1801ms
+70 timing reify:diffTrees Completed in 3ms
+71 silly reify mark retired [
+71 silly reify   '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/body-parser'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/raw-body'
+72 silly reify ]
+73 silly reify moves {
+73 silly reify   '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/body-parser': '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/.body-parser-kc8PRc7K',
+73 silly reify   '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/raw-body': '/Users/aayushchaudhary/Git/Crash Detection and Vehicle Monitoring/server/node_modules/.raw-body-siU6jNVm'
+73 silly reify }
+74 timing reify:retireShallow Completed in 3ms
+75 timing reify:createSparse Completed in 1ms
+76 timing reify:loadBundles Completed in 0ms
+77 silly audit bulk request {
+77 silly audit   accepts: [ '1.3.8' ],
+77 silly audit   'array-flatten': [ '1.1.1' ],
+77 silly audit   'call-bind': [ '1.0.2' ],
+77 silly audit   'content-disposition': [ '0.5.4' ],
+77 silly audit   'content-type': [ '1.0.5' ],
+77 silly audit   cookie: [ '0.5.0' ],
+77 silly audit   'cookie-signature': [ '1.0.6' ],
+77 silly audit   debug: [ '2.6.9' ],
+77 silly audit   depd: [ '2.0.0' ],
+77 silly audit   destroy: [ '1.2.0' ],
+77 silly audit   'ee-first': [ '1.1.1' ],
+77 silly audit   encodeurl: [ '1.0.2' ],
+77 silly audit   'escape-html': [ '1.0.3' ],
+77 silly audit   etag: [ '1.8.1' ],
+77 silly audit   express: [ '4.18.2' ],
+77 silly audit   finalhandler: [ '1.2.0' ],
+77 silly audit   forwarded: [ '0.2.0' ],
+77 silly audit   fresh: [ '0.5.2' ],
+77 silly audit   'function-bind': [ '1.1.1' ],
+77 silly audit   'get-intrinsic': [ '1.2.1' ],
+77 silly audit   has: [ '1.0.3' ],
+77 silly audit   'has-proto': [ '1.0.1' ],
+77 silly audit   'has-symbols': [ '1.0.3' ],
+77 silly audit   'http-errors': [ '2.0.0' ],
+77 silly audit   inherits: [ '2.0.4' ],
+77 silly audit   'ipaddr.js': [ '1.9.1' ],
+77 silly audit   'media-typer': [ '0.3.0' ],
+77 silly audit   'merge-descriptors': [ '1.0.1' ],
+77 silly audit   methods: [ '1.1.2' ],
+77 silly audit   mime: [ '1.6.0' ],
+77 silly audit   'mime-db': [ '1.52.0' ],
+77 silly audit   'mime-types': [ '2.1.35' ],
+77 silly audit   ms: [ '2.0.0', '2.1.3' ],
+77 silly audit   negotiator: [ '0.6.3' ],
+77 silly audit   'object-inspect': [ '1.12.3' ],
+77 silly audit   'on-finished': [ '2.4.1' ],
+77 silly audit   parseurl: [ '1.3.3' ],
+77 silly audit   'path-to-regexp': [ '0.1.7' ],
+77 silly audit   'proxy-addr': [ '2.0.7' ],
+77 silly audit   qs: [ '6.11.0' ],
+77 silly audit   'range-parser': [ '1.2.1' ],
+77 silly audit   'safe-buffer': [ '5.2.1' ],
+77 silly audit   send: [ '0.18.0' ],
+77 silly audit   'serve-static': [ '1.15.0' ],
+77 silly audit   setprototypeof: [ '1.2.0' ],
+77 silly audit   'side-channel': [ '1.0.4' ],
+77 silly audit   statuses: [ '2.0.1' ],
+77 silly audit   toidentifier: [ '1.0.1' ],
+77 silly audit   'type-is': [ '1.6.18' ],
+77 silly audit   unpipe: [ '1.0.0' ],
+77 silly audit   'utils-merge': [ '1.0.1' ],
+77 silly audit   vary: [ '1.1.2' ],
+77 silly audit   'body-parser': [ '1.20.2', '1.20.1' ],
+77 silly audit   bytes: [ '3.1.2' ],
+77 silly audit   'iconv-lite': [ '0.4.24' ],
+77 silly audit   'raw-body': [ '2.5.2', '2.5.1' ],
+77 silly audit   'safer-buffer': [ '2.1.2' ]
+77 silly audit }
+78 silly tarball no local data for body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz. Extracting by manifest.
+79 silly tarball no local data for raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz. Extracting by manifest.
+80 timing reifyNode:node_modules/express/node_modules/raw-body Completed in 17ms
+81 timing reifyNode:node_modules/express/node_modules/body-parser Completed in 19ms
+82 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.5.2.tgz 230ms (cache miss)
+83 timing reifyNode:node_modules/raw-body Completed in 237ms
+84 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 373ms
+85 timing auditReport:getReport Completed in 375ms
+86 silly audit report {}
+87 timing auditReport:init Completed in 0ms
+88 timing reify:audit Completed in 376ms
+89 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.20.2.tgz 421ms (cache miss)
+90 timing reifyNode:node_modules/body-parser Completed in 427ms
+91 timing reify:unpack Completed in 428ms
+92 timing reify:unretire Completed in 0ms
+93 timing build:queue Completed in 1ms
+94 timing build:deps Completed in 1ms
+95 timing build Completed in 1ms
+96 timing reify:build Completed in 2ms
+97 timing reify:trash Completed in 3ms
+98 timing reify:save Completed in 15ms
+99 timing reify Completed in 2272ms
+100 silly CHANGE node_modules/raw-body
+101 silly ADD node_modules/express/node_modules/raw-body
+102 silly ADD node_modules/express/node_modules/body-parser
+103 silly CHANGE node_modules/body-parser
+104 timing command:i Completed in 2276ms
+105 verbose exit 0
+106 timing npm Completed in 2297ms
+107 info ok
